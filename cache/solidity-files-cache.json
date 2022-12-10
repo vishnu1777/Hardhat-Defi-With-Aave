@@ -1,0 +1,260 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/home/vishnu/SmartContract/hardhat-defi-app/contracts/interface/IWeth.sol": {
+      "lastModificationDate": 1670609360936,
+      "contentHash": "a17705317fbad19d944bc91c06e83f14",
+      "sourceName": "contracts/interface/IWeth.sol",
+      "solcConfig": {
+        "version": "0.4.19",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.4.19"
+      ],
+      "artifacts": [
+        "IWeth"
+      ]
+    },
+    "/home/vishnu/SmartContract/hardhat-defi-app/node_modules/@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol": {
+      "lastModificationDate": 1670606872042,
+      "contentHash": "a487bfd067ce6e71ddc7e9cc91302bae",
+      "sourceName": "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPoolAddressesProvider"
+      ]
+    },
+    "/home/vishnu/SmartContract/hardhat-defi-app/node_modules/@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol": {
+      "lastModificationDate": 1670606875062,
+      "contentHash": "2127b8d36674faba96bc703f72164a1a",
+      "sourceName": "@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "DataTypes"
+      ]
+    },
+    "/home/vishnu/SmartContract/hardhat-defi-app/contracts/interface/ILendingPool.sol": {
+      "lastModificationDate": 1670685365932,
+      "contentHash": "a7d1b605743494a6d8c09f9430ed671e",
+      "sourceName": "contracts/interface/ILendingPool.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [
+        "@aave/protocol-v2/contracts/interfaces/ILendingPoolAddressesProvider.sol",
+        "@aave/protocol-v2/contracts/protocol/libraries/types/DataTypes.sol"
+      ],
+      "versionPragmas": [
+        "0.6.12"
+      ],
+      "artifacts": [
+        "ILendingPool"
+      ]
+    },
+    "/home/vishnu/SmartContract/hardhat-defi-app/contracts/interface/IERC20.sol": {
+      "lastModificationDate": 1670686756752,
+      "contentHash": "8d7df49826179e4e1015772df3bfe47f",
+      "sourceName": "contracts/interface/IERC20.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.6"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/home/vishnu/SmartContract/hardhat-defi-app/contracts/interface/AggregatorV3Interface.sol": {
+      "lastModificationDate": 1670688684922,
+      "contentHash": "dedb4e432f8cfbce9bcb89041bfa958d",
+      "sourceName": "contracts/interface/AggregatorV3Interface.sol",
+      "solcConfig": {
+        "version": "0.6.12",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata",
+                "devdoc",
+                "userdoc",
+                "storageLayout",
+                "evm.gasEstimates"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          },
+          "metadata": {
+            "useLiteralContent": true
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.6.0"
+      ],
+      "artifacts": [
+        "AggregatorV3Interface"
+      ]
+    }
+  }
+}
